@@ -4,7 +4,6 @@ import { BarChart } from "@mui/x-charts/BarChart";
 const ActivityChart = () => {
   const days = Array.from({ length: 30 }, (_, i) => (i + 1).toString());
     
-
   const amounts = [
      2000,6000,5000,3000,6000,4000,8000,5000,2000,6000,8000,14000,12000,4000,8000,
      2000,6000,5000,3000,6000,4000,8000,5000,2000,6000,8000,15000,11000,10000,8000,
